@@ -2,7 +2,6 @@
 	pageEncoding="ISO-8859-1"%>
 <%@page import="co.edu.unbosque.front.Usuarios"%>
 <%@page import="java.util.ArrayList"%>
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -13,21 +12,21 @@
 	integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
 	crossorigin="anonymous">
 <meta charset="ISO-8859-1">
-<title>Creación de Usuario</title>
+<title>CreaciÃ³n de Usuario</title>
 </head>
 <body style="background-color: transparent;">
 	<div class="row">
 		<div class="card col-md-4 card text-white bg-dark mb-3">
 			<div class="card-body">
 				<h5 class="card-title">Usuarios</h5>
-				<h6 class="card-subtitle mb-2 text-muted">Bienvenidos al modulo de gestión de usuarios,
-				Este modulo permite la gestión de los usuarios que tienen acceso al sistema de la tienda
+				<h6 class="card-subtitle mb-2 text-muted">Bienvenidos al modulo de gestiÃ³n de usuarios,
+				Este modulo permite la gestiÃ³n de los usuarios que tienen acceso al sistema de la tienda
 				<strong>BoringShop.</strong></h6>
 				<div>
 					<form class="form-sign" method="get" action="Controlador">
 						<div class="form-group">
-							<input type="hidden" name="menu" value="Usuarios"> <label>Cédula:</label>
-							<input type="text" name="txtcedula" class="form-control" required="required" placeholder="Número de cédula"
+							<input type="hidden" name="menu" value="Usuarios"> <label>CÃ©dula:</label>
+							<input type="text" name="txtcedula" class="form-control" required="required" placeholder="NÃºmero de cÃ©dula"
 								value="${usuarioSeleccionado.getCedula_usuario()}">
 						</div>
 						<div class="form-group">
@@ -46,7 +45,7 @@
 						</div>
 						<div class="form-group">
 							<label>Password:</label> <input type="password" name="txtclave"
-								class="form-control" required="required" placeholder="Digite una contraseña" value="${usuarioSeleccionado.getClave()}">
+								class="form-control" required="required" placeholder="Digite una contraseÃ±a" value="${usuarioSeleccionado.getClave()}">
 						</div>
 						<div class="p-3" align="center">
 							<input type="submit" class="btn btn-outline-dark text-white" name="accion" value="Agregar"> 
@@ -103,4 +102,5 @@
 			crossorigin="anonymous"></script>
 </body>
 </html>
+
 
