@@ -1,7 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
 <%@page import="co.edu.unbosque.front.Clientes" %>
-
 <%@page import="java.util.ArrayList"%>
 
 <!DOCTYPE html>
@@ -14,14 +13,14 @@
 	integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
 	crossorigin="anonymous">
 <meta charset="ISO-8859-1">
-<title>Creación de Cliente</title>
+<title>CreaciÃ³n de Cliente</title>
 </head>
 <body  style="background-color: transparent;">
 	<div class="row">
 		<div class="card col-md-4 text-white bg-dark mb-3">
 			<div class="card-body">
 				<h5 class="card-title">Clientes</h5>
-				<h6 class="card-subtitle mb-2 text-muted">Módulo de gestión de clientes para la tienda Boringshop.</h6>
+				<h6 class="card-subtitle mb-2 text-muted">MÃ³dulo de gestiÃ³n de clientes para la tienda Boringshop.</h6>
 				<div>
 					<form class="form-sign" method="get" action="Controlador">
 
@@ -41,12 +40,12 @@
 								value="${clienteSeleccionado.getEmail_cliente()}">
 						</div>
 						<div class="form-group">
-							<label>Dirección:</label> <input type="text" name="txtdireccion"
+							<label>DirecciÃ³n:</label> <input type="text" name="txtdireccion"
 								class="form-control"
 								value="${clienteSeleccionado.getDireccion_cliente()}">
 						</div>
 						<div class="form-group">
-							<label>Teléfono:</label> <input type="text" name="txttelefono"
+							<label>TelÃ©fono:</label> <input type="text" name="txttelefono"
 								class="form-control"
 								value="${clienteSeleccionado.getTelefono_cliente()}">
 						</div>
@@ -62,11 +61,11 @@
 			<table class="table table-dark table-hover text-center">
 				<thead class="thead-dark">
 					<tr>
-						<th scope="col">Cédula</th>
+						<th scope="col">CÃ©dula</th>
 						<th scope="col">Nombre</th>
 						<th scope="col">Email</th>
-						<th scope="col">Dirección</th>
-						<th scope="col">Teléfono</th>
+						<th scope="col">DirecciÃ³n</th>
+						<th scope="col">TelÃ©fono</th>
 					</tr>
 				</thead>
 				<tbody>
@@ -105,4 +104,6 @@
 			crossorigin="anonymous"></script>
 </body>
 </html>
+
+
 
