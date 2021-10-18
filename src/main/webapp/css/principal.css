@@ -1,0 +1,25 @@
+@charset "ISO-8859-1";
+
+body{
+
+}
+.fondoprincipal{
+	height:100%;
+	width:100%;
+	position: absolute;
+	background:url('../images/Fondo3.png') #000;
+	background-position: center center;
+	background-repeat: no-repeat;
+    display: block;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
+  /*opacity: 0.8;*/
+  z-index: 1;
+}
+
+.copyright p {
+  color: #FFFFFF;
+}

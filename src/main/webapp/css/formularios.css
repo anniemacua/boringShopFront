@@ -1,0 +1,19 @@
+
+.form-control {
+	border-color: #7CFC00 !important;
+}
+.btn-outline-dark {
+	cursor: pointer !important;
+	background: transparent !important;
+	border: 1px solid #7FFF00 !important;
+	outline: none !important;
+	transition: 1s ease-in-out !important;
+	/**background-color: #000000 !important;
+		color: #7CFC00 !important;
+	border-color: #FFFFFF !important;*/
+}
+
+.btn-outline-dark:hover {
+	transition: 0.30s ease-in-out !important;
+	background: #7FFF00 !important;
+}
