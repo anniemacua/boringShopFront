@@ -61,10 +61,8 @@
 				<a class="dropdown-item" href="#">${usuario.getEmail_usuario()}</a>
 				<div class="dropdown-divider"></div>
 				<form class="dropdown-item" method="POST" action="#">
-					<button class="btn btn-danger center-block" type="submit"
-						name="accion" value="Salir">Cerrar Sesion</button>
+					<button class="btn btn-danger center-block" type="submit"name="accion" value="Salir">Cerrar Sesion</button>
 				</form>
-
 			</div>
 		</div>
 	</nav>
